@@ -5,7 +5,7 @@ import os
 from rasa_core.utils import EndpointConfig
 
 # load your trained agent
-interpreter = RasaNLUInterpreter("models/nlu/default/horoscopebot/")
+interpreter = RasaNLUInterpreter("models/nlu/")
 MODEL_PATH = "models/dialogue"
 action_endpoint = EndpointConfig(url="https://bitcoin25bot-actions.herokuapp.com/webhook")
 

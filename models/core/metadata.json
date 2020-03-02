@@ -1,0 +1,72 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_bloques": {
+      "slots": []
+    },
+    "utter_ethereum": {
+      "slots": []
+    },
+    "utter_despedida": {
+      "slots": []
+    },
+    "utter_hyperledger": {
+      "slots": []
+    },
+    "utter_saludo": {
+      "slots": []
+    },
+    "utter_blockchain_privada": {
+      "slots": []
+    },
+    "utter_blockchain_hibrida": {
+      "slots": []
+    },
+    "utter_blockchain_publica": {
+      "slots": []
+    },
+    "utter_smart_contract": {
+      "slots": []
+    },
+    "utter_dapp": {
+      "slots": []
+    },
+    "utter_ico": {
+      "slots": []
+    },
+    "utter_mineria": {
+      "slots": []
+    },
+    "utter_out_of_scope": {
+      "slots": []
+    },
+    "utter_bitcoin": {
+      "slots": []
+    },
+    "utter_blockchain": {
+      "slots": []
+    },
+    "utter_func_blockchain": {
+      "slots": []
+    },
+    "utter_tipos_blockchain": {
+      "slots": []
+    }
+  },
+  "python": "3.6.3",
+  "max_histories": [
+    1,
+    null
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.memoization.MemoizationPolicy",
+    "rasa.core.policies.mapping_policy.MappingPolicy"
+  ],
+  "trained_at": "20200301-142739",
+  "rasa": "1.7.4",
+  "tensorflow": "1.15.0",
+  "sklearn": "0.20.4"
+}
