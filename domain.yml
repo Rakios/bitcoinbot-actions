@@ -1,0 +1,54 @@
+intents:
+  - saludo
+  - despedida
+  - blockchain
+  - bloques
+  - func_blockchain
+  - tipos_blockchain
+  - blockchain_publica
+  - blockchain_privada
+  - blockchain_hibrida
+  - bitcoin
+  - ethereum
+  - smart_contract
+  - hyperledger
+  - ico
+  - dapp
+  - mineria
+  - out_of_scope
+
+responses:
+  utter_blockchain:
+    - text: La cadena de bloques es una base de datos descentralizada y compartida por una red de usuarios que permite transacciones seguras online. Funciona de manera que multiples nodos comparten una misma informacion encriptada e inalterable mediante algoritmos que garantizan fiabilidad.
+  utter_saludo:
+    - text: Hola que tal.
+  utter_despedida:
+    - text: Chao.
+  utter_bloques:
+    - text: Un bloque es parte de la red Bitcoin. Los datos transaccionales se almacenan permanentemente en un bloque. Además, los bloques son siempre secuenciales, y los nuevos datos se agregan al último bloque. En palabras simples, es un libro de registro con un tamaño fijo. Una vez que se completa un bloque, se genera un nuevo bloque que luego se adjunta a la blockchain. Aquí es de donde vino el nombre de la cadena de “bloques”. Toda la información en el bloque está encriptada y solo el receptor y el remitente pueden acceder a ella.
+  utter_func_blockchain:
+    - text: La funcionalidad con mayor impacto es que permite realizar transacciones seguras sin intermediarios.
+  utter_tipos_blockchain:
+    - text: El blockchain o Cadena de bloques se clasifica en Publica, Privada e Hibrida.
+  utter_blockchain_publica:
+    - text: Es una cadena de bloques descentralizada asi que cualquier persona puede leer, escribir y unirse ej. Bitcoin y ethereum.
+  utter_blockchain_privada:
+    - text: La cadena de bloques privada opera con una autoridad central en control y solo pueden acceder usuarios seleccionados ej. Hyperledger.
+  utter_blockchain_hibrida:
+    - text: Son las que utilizan los gobiernos, asociaciones y empresas en las que se producen grandes cantidades de transacciones. Normalmente no están abiertas al público general y la gestión corresponde a varias entidades. Otra diferencia con las redes blockchain públicas es que no tienen una criptomoneda asociada y que no recompensan el minado de bloques.
+  utter_bitcoin:
+    - text: Bitcoin es una moneda, como el euro o el dólar estadounidense, que sirve para intercambiar bienes y servicios. Sin embargo, a diferencia de otras monedas, Bitcoin es una divisa electrónica que presenta novedosas características y destaca por su eficiencia, seguridad y facilidad de intercambio.
+  utter_ethereum:
+    - text: Ethereum es una plataforma abierta de software basada en la tecnología de cadena de bloques que permite a los desarrolladores crear e implementar aplicaciones descentralizadas.
+  utter_smart_contract:
+    - text: Un Contrato inteligente es solo una frase usada para describir un código de computadora que puede facilitar el intercambio de dinero, contenido, propiedad, acciones, o cualquier cosa de valor. Al ejecutarse en la cadena de bloques un contrato inteligente se convierte en un programa de computadora de operación propia que se ejecuta automáticamente cuando se cumplen ciertas condiciones específicas.
+  utter_hyperledger:
+    - text: Hyperledger es un esfuerzo de colaboración de código abierto para mejorar blockchain. Ofrece un marco de nivel empresarial. Las herramientas ayudarán a fortalecer la implementación de la blockchain en múltiples sectores, incluida la fabricación, las cadenas de suministro, las finanzas, etc. La Fundación Linux lo gestiona
+  utter_ico:
+    - text: ICO significa Initial Coin Offering (oferta inicial de monedas). Es similar en concepto a una OPI (oferta pública inicial). ICO es utilizada por nuevas empresas o compañías para recaudar capital para su producto. Puede ser un producto de blockchain directo o un producto que utiliza los beneficios de blockchain. Para recaudar el dinero venden su plataforma o tokens de servicio.
+  utter_dapp:
+    - text: dApp significa “aplicación descentralizada” que se ejecuta en una blockchain. Los contratos inteligentes se utilizan para automatizar diferentes funcionalidades de la dApp. Como es una aplicación, más de una parte puede participar y no está controlada por una sola entidad. Las dApp en general siguen un protocolo o algoritmo y también requieren un incentivo adjunto a su funcionalidad. Por último, es un código completamente abierto.
+  utter_mineria:
+    - text: La minería de criptomonedas es el proceso de validación de transacciones en una blockchain y de garantizar que se valide y escriba en un bloque. La minería es llevada a cabo por mineros que usan equipos de computación costosos para proporcionar consenso a una blockchain. La minería es utilizada principalmente por el algoritmo de consenso Proof-of-Work (PoW) donde el minero tiene que resolver complejos rompecabezas matemáticos. Son recompensados por su trabajo.
+  utter_out_of_scope:
+    - text: Disculpe, no entendí su petición, por favor reformule su pregunta.
