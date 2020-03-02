@@ -1,1 +1,1 @@
-web: python -m rasa_core_sdk.endpoint --actions actions --port 5055
+web: python -m rasa_core_sdk.endpoint --actions actions --port $PORT
